@@ -4,9 +4,10 @@
     <link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B600%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
     <title>Stitch Design</title>
     <link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     </head>
-    <body class="bg-slate-50" style='font-family: Inter, "Noto Sans", sans-serif;'>
+    <body class="bg-slate-50">
     <div class="relative flex size-full min-h-screen flex-col group/design-root overflow-x-hidden">
     <div class="layout-container flex h-full grow flex-col">
     <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 px-6 sm:px-10 py-4 shadow-sm">
@@ -70,7 +71,7 @@
     <h2 class="text-slate-900 text-2xl sm:text-3xl font-bold tracking-tight mb-6">Featured Article</h2>
     <div class="rounded-xl overflow-hidden shadow-lg bg-white hover:shadow-xl transition-shadow duration-300">
     <div class="grid md:grid-cols-2">
-    <div class="w-full bg-center bg-no-repeat aspect-video bg-cover md:aspect-auto" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBUs9Rx4K4S_sG_ddh1R2Ijl7rr9ZbWV3prpx5KKnY1ZIdXyeD-Hxa-tqkuWIhtNWpmudyy2nj-aa2CCwYInnNhENALUdJIWPIbPFNzzicki68JKWsn1Dew831MzNWNb32ZWDF-Y3sp79XuVEKQw7ZGo2a5Hr9PQluHOCO823TuVDL74orCG-QoLv4orLmsaqluB2Um25xzMipMM801HbW6V3yFaLb3SRwmPTkBKC6X-_k8BD0oT4ftRBoLM_xR8jCG8srgf0C9Oho");'></div>
+    <div class="w-full bg-center bg-no-repeat aspect-video bg-cover md:aspect-auto insight-featured-article-bg"></div>
     <div class="p-6 sm:p-8 flex flex-col justify-center">
     <h3 class="text-slate-900 text-xl sm:text-2xl font-semibold leading-tight tracking-tight mb-2">
                           The Future of Digital Marketing: Trends to Watch in 2024
@@ -91,7 +92,7 @@
     <h2 class="text-slate-900 text-2xl sm:text-3xl font-bold tracking-tight mb-6">Latest Articles</h2>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
     <article class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
-    <div class="w-full h-48 bg-center bg-no-repeat bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCy7Xj-9kaZVaeOWroUu3rcBpOQE3kPzOFwWLD6FJGPTDS_VDGm3Jr4l2mSj9UK_nvpUxo79jnW-iuYLQ9UcYacHrGRJutuVZSifHe6ygOlZNhvrAyF8bACMWIrUb0tULik8yrojKzpdd5M7vhPqFFhEWrv5Q8hQ_D_sWdbOk2Vs_j4ByvYzNDYXQFfsiGEMIt75R2FJpdra0wCDtjPqOiuvGiHHqfnv3vNis2zOt2oHBU5jl4s4dvIYlnUFMgpzdE0iYmyoIDRWUo");'></div>
+    <div class="w-full h-48 bg-center bg-no-repeat bg-cover insight-latest-article-bg-1"></div>
     <div class="p-5 flex flex-col flex-grow">
     <h3 class="text-slate-900 text-lg font-semibold mb-2">5 Tips for Effective Social Media Campaigns</h3>
     <p class="text-slate-600 text-sm mb-3 flex-grow">Learn how to create impactful social media campaigns that resonate with your audience.</p>
@@ -103,7 +104,7 @@
     </div>
     </article>
     <article class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
-    <div class="w-full h-48 bg-center bg-no-repeat bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDHJ6q_jB82Ip9X-PFXhV621qd5vSLGMh1F7b1u_v2jUFuv3J0DhQuUWyO99CX7ZYljAJl7VNNRSAodjdxdVTxTmThES6oYYEO7XQqukEEYROxt6TEZSv52DFoxeFbw7nmGnO725OMwECpqrtv5nQsVns4Q1kkzc4_NjJcJHkkodZYMMoo1YvPlR2GQi7Cm8dGa0ogavDArOIRrZGa1ZCADDCHKfsSeSckufoocZCNG0hF-ym8TcZIpPRww54iE3nlEq5XDLAcWb3Q");'></div>
+    <div class="w-full h-48 bg-center bg-no-repeat bg-cover insight-latest-article-bg-2"></div>
     <div class="p-5 flex flex-col flex-grow">
     <h3 class="text-slate-900 text-lg font-semibold mb-2">Mastering SEO: A Comprehensive Guide</h3>
     <p class="text-slate-600 text-sm mb-3 flex-grow">Boost your website's visibility with our in-depth SEO guide.</p>
@@ -115,7 +116,7 @@
     </div>
     </article>
     <article class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
-    <div class="w-full h-48 bg-center bg-no-repeat bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCYHGx2kP9AmhiFAPa1ZaITq5Demp67XuUGjLlNc0e-lLwp9TvLpFFaroJONO-aSOITBXQbDMSEXWfHyLC_bHnh4WqEYQdGLN1el2VvOsbe53zlApoNR68w1_gAWDsMRLBvOTNpy4EDazMpylFN3v_RbS-gDIw0cvSC7GB_zY5qg_vpc8nb3UWbUFsxv8AbuF4euC8wrRY4-imjt9oi4WJ2s0bGvZ_j_dw2g1erbcWoczqbpYI7njxjVsAtMtQaS5psBWI8uiIuVkw");'></div>
+    <div class="w-full h-48 bg-center bg-no-repeat bg-cover insight-latest-article-bg-3"></div>
     <div class="p-5 flex flex-col flex-grow">
     <h3 class="text-slate-900 text-lg font-semibold mb-2">Email Marketing Best Practices for 2024</h3>
     <p class="text-slate-600 text-sm mb-3 flex-grow">Enhance your email marketing efforts with the latest best practices.</p>
@@ -127,7 +128,7 @@
     </div>
     </article>
     <article class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
-    <div class="w-full h-48 bg-center bg-no-repeat bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB5bXSSBlbLEGorTx89hI024GjjnKTllt6lZrDnj0_Rr5GD48z9qEd1d_qKmObY6f0AYIrUutA09DpvhtUqxKVJjUqHK5HdRJbxWbAudCXh8cavX-5TyduAI5a0DwyTveOjjdiFU6hUIhzwf4nkukh_wJ45RKdJ0pnIAdOXRHKk_Q83WsHXAgo9euILbjP7fX6MWCiUW7td1tCUAl3G4NRMlTnN9nBa5IJ4L4Mf2klVs_Vo5kRaPYvgby-CGqzsLtU9Lgf3MC2RB6k");'></div>
+    <div class="w-full h-48 bg-center bg-no-repeat bg-cover insight-latest-article-bg-4"></div>
     <div class="p-5 flex flex-col flex-grow">
     <h3 class="text-slate-900 text-lg font-semibold mb-2">Content Marketing Strategies That Drive Engagement</h3>
     <p class="text-slate-600 text-sm mb-3 flex-grow">Discover content marketing techniques that captivate and engage your target audience.</p>

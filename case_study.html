@@ -5,18 +5,10 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"/>
     <title>Marketing Co. - Case Studies</title>
     <link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <style>
-          .filter-button.active {
-            background-color: #0c7ff2;
-            color: white;
-          }
-          .filter-button.active svg {
-            color: white;
-          }
-        </style>
     </head>
-    <body class="bg-slate-50" style='font-family: Inter, "Noto Sans", sans-serif;'>
+    <body class="bg-slate-50">
     <div class="relative flex size-full min-h-screen flex-col group/design-root overflow-x-hidden">
     <div class="layout-container flex h-full grow flex-col">
     <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 px-10 py-4 shadow-sm bg-white">
@@ -69,7 +61,7 @@
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
     <div class="flex flex-col bg-white rounded-xl shadow-lg overflow-hidden transition-all hover:shadow-xl">
-    <div class="w-full h-56 bg-center bg-no-repeat bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC7h_w4nWAKC5zQX861bW61NjuXY7SX0j9ukDtXb0SeaHa39U64_YMjzg0EPZk97CnKsREnegZygHK4DZYAhGZy7a9Sh136NP8Us8BSnxvrk0IuHbA4vnw41OuLF27c3vEOKsOe-XW_ymCksWb7PDAoL_auChpVLu0pS6QrvlqxfRaxiswuWhV7N-Gt1MAZ4P_GBMkav1gD9Nid5ekw6LncmnhYdVdRXXbWbInxsNJnUc4nVSDSfoJJqoxqD2bAVIMZo3ox8gFFSG8");'></div>
+    <div class="w-full h-56 bg-center bg-no-repeat bg-cover case-study-card-bg-1"></div>
     <div class="p-6 flex flex-col flex-grow">
     <h3 class="text-slate-900 text-xl font-semibold leading-tight mb-2">Tech Startup Growth</h3>
     <p class="text-slate-600 text-sm font-normal leading-relaxed mb-1"><strong class="text-slate-700">Client:</strong> Innovate Solutions Inc.</p>
@@ -86,7 +78,7 @@
     </div>
     </div>
     <div class="flex flex-col bg-white rounded-xl shadow-lg overflow-hidden transition-all hover:shadow-xl">
-    <div class="w-full h-56 bg-center bg-no-repeat bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDwO-PMgaBB-iL4dYs7gcI6mEOgnBAZPuNwjzhAMpt3nLgNUt2Lm0972PLirIbk5j10BxJbC2Mm3qZxzOfqTfIyIPVg0ZCOqmrycFjGVM2ftuLGMZ4wwNH9TPg9RuW9HmqU6UKtiw4qgIV0LeA33MZ0VlE4wyJS2cjJirUb4betR2PI47eRmFjQFYV2Z4sX2JHnupZphYmPXXCoJMPAKQazMaLgjekY-xF2jOM3cVtBJqWlsiu34LaPT45MvBTuAjVKRL42dXUtfag");'></div>
+    <div class="w-full h-56 bg-center bg-no-repeat bg-cover case-study-card-bg-2"></div>
     <div class="p-6 flex flex-col flex-grow">
     <h3 class="text-slate-900 text-xl font-semibold leading-tight mb-2">E-commerce Sales Boost</h3>
     <p class="text-slate-600 text-sm font-normal leading-relaxed mb-1"><strong class="text-slate-700">Client:</strong> Online Emporium Ltd.</p>
@@ -103,7 +95,7 @@
     </div>
     </div>
     <div class="flex flex-col bg-white rounded-xl shadow-lg overflow-hidden transition-all hover:shadow-xl">
-    <div class="w-full h-56 bg-center bg-no-repeat bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCAgr8qf63CyQr6dU-NCfFYYOwHoWtaScizhc_aoM6zm9A9fCaWJ9IJ9gRSH_wdLvmZKKtShhr8xId0q4e2WgKxr560sdnoLuTFkuADvLradU-CbAXWJ6prGPFpXmHP1uCpJijz0v4uOsm6DbjuYumHpV3Rg8jcd70Xdl1oqy2jCI-OhxWFIxy1ZifeN2D61Dvo6f0CYX8RKVpfLnlTErS0fXzxf51O1KBUFcGBZz3pzd3k5J4btEVHVNkLA8jnK-0FMBGLb8MI2s8");'></div>
+    <div class="w-full h-56 bg-center bg-no-repeat bg-cover case-study-card-bg-3"></div>
     <div class="p-6 flex flex-col flex-grow">
     <h3 class="text-slate-900 text-xl font-semibold leading-tight mb-2">Financial Services Lead Gen</h3>
     <p class="text-slate-600 text-sm font-normal leading-relaxed mb-1"><strong class="text-slate-700">Client:</strong> SecureInvest Group</p>
@@ -120,7 +112,7 @@
     </div>
     </div>
     <div class="flex flex-col bg-white rounded-xl shadow-lg overflow-hidden transition-all hover:shadow-xl">
-    <div class="w-full h-56 bg-center bg-no-repeat bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCTPxgvwrle_W7kDnR2jwdSlsrwCXynOVFfEX0C7J7vwHjnuEnvWJ69nNXBf8j7n-AxVJ9GWrhCU-od7B49h9hoRIQBebttLKsQwYWq9pr9wyu9y1EW-5OkyF4WC7Cp_Bpq7K5Mk_sJBml-uj8tJw8ANSjwdewojqCfa4b4OpnQq1aMVNV12OjBXkov2bst66IUjK_Y0Lu6Jm0r3qMGhEa8FSQNBSSvfVJ1BaA2Lf2rKCLm0OIn2izNYj-j1aT31vxVqssx2L2NBsg");'></div>
+    <div class="w-full h-56 bg-center bg-no-repeat bg-cover case-study-card-bg-4"></div>
     <div class="p-6 flex flex-col flex-grow">
     <h3 class="text-slate-900 text-xl font-semibold leading-tight mb-2">Retail Brand Awareness</h3>
     <p class="text-slate-600 text-sm font-normal leading-relaxed mb-1"><strong class="text-slate-700">Client:</strong> FashionForward Boutique</p>
